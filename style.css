@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: #260d34;
 }
 
 body {
@@ -20,12 +20,12 @@ body {
 
 h1, h2, h3 {
   font-family: 'Cinzel Decorative', cursive;
-  color: #2a2a2a;
+  color: #ffffff;
 }
 
 p, input, li {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #2a2a2a;
+  color: #ffffff;
 }
 
 h1 {
@@ -51,7 +51,7 @@ p, li {
 /* || header layout */
 
 header {
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   display: flex;
   flex-flow: row wrap;
 }
@@ -62,8 +62,30 @@ body > * {
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,255,0,0.5);
+  background-color: #452459; /*background-color: rgba(69,36,89,0.5); for the original alpha channel color trick */
   padding: 1%;
+}
+
+nav, aside, footer, article {
+  background-color: #87286a;
+}
+
+aside, article {
+  border: 1rem solid #260d34;
+}
+
+section {
+  background-color: #d03791;
+  border: 0.5rem solid #260d34;
+  height: fit-content;
+}
+
+/* nav {
+  margin: 1%;
+} */
+
+main {
+  margin-top: 1%;
 }
 
 h1 {
@@ -103,7 +125,7 @@ nav a, nav span {
   line-height: 1.7;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: #ffffff;
 
 }
 
@@ -133,6 +155,14 @@ aside img {
   max-width: 100%;
 }
 
+aside p {
+  text-align: center;
+}
+
 footer {
   margin-top: 10px;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
 }
