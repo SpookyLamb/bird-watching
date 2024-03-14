@@ -39,7 +39,7 @@ a:hover {
 h1 {
   font-size: 6rem;
   text-align: center;
-  text-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 40px black;
 }
 
 h2 {
@@ -60,6 +60,7 @@ p, li {
 /* || header layout */
 
 header {
+  margin-top: 1%;
   margin-bottom: 1%;
   display: flex;
   flex-flow: row wrap;
@@ -73,6 +74,7 @@ body > * {
 main, header, nav, article, aside, footer, section {
   background-color: #452459; /*background-color: rgba(69,36,89,0.5); for the original alpha channel color trick */
   padding: 1%;
+  border-radius: 10px;
 }
 
 nav, aside, footer, article {
@@ -99,13 +101,13 @@ main {
 
 h1 {
   flex: 5;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 header img {
-  display: block;
-  height: 60px;
-  padding-top: 3.5%;
+  height: 120px;
+  vertical-align: center;
+  padding-top: 1%;
 }
 
 nav {
@@ -154,7 +156,7 @@ article, section {
 
 aside {
   flex: 2;
-  margin-left: 10px;
+  margin-right: 10px;
   padding: 1%;
 }
 
@@ -166,6 +168,7 @@ aside a {
 
 aside img {
   max-width: 100%;
+  padding: 1%;
 }
 
 aside p {
